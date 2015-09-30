@@ -1,0 +1,14 @@
+{
+  "name": "ES6-Workshop",
+  "version": "0.0.1",
+  "devDependencies": {
+    "babel": "4.7 - 5.x",
+    "chai": "1.10 - 3.x",
+    "mocha": "^2.2.4"
+  },
+  "scripts": {
+    "test": "mocha spec --compilers js:babel/register",
+    "test-watch": "mocha spec --watch --compilers js:babel/register"
+  },
+  "dependencies": {}
+}
